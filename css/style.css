@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    list-style: none;
+}
+.container{
+    height: 100vh;
+}
+.wrapper{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.wrapper-item{
+    width: 100px;
+    height: 270px;
+    background-color: black;
+}
+.wrapper-bottom{
+    width: 30px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: black;
+}
+.wrapper-item li{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px;
+   
+}
+.list1{
+    background-color: green;
+    animation-name: list1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.list2{
+    background-color: yellow;
+    animation-name: list2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.list3{
+    background-color: red;
+    animation-name: list3;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes list1{
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: #fff;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+@keyframes list2{
+    0%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: #fff;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+@keyframes list3{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: #fff;
+    }
+    100%{
+        background-color: red;
+    }
+}
